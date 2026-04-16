@@ -10,15 +10,14 @@ This example illustrates how to:
 - Disable sorting to preserve custom or declared property order
 
 ## Why Sort Property Items?
-Groups logically related settings together
-Enhances navigation and overall editing efficiency
-Provides a more professional and user‑friendly UI
+- Groups logically related settings together
+- Enhances navigation and overall editing efficiency
+- Provides a more professional and user‑friendly UI
 
 ## Common Sorting Techniques
-
-CategoryAttribute: Organizes properties into named groups
-DisplayNameAttribute: Affects alphabetical ordering and readability
-Custom PropertyGrid Models: Allows full control over property order
+- **CategoryAttribute**: Organizes properties into named groups
+- **DisplayNameAttribute**: Affects alphabetical ordering and readability
+- **Custom PropertyGrid Models**: Allows full control over property order
 
 ## Example
 
@@ -26,5 +25,3 @@ Custom PropertyGrid Models: Allows full control over property order
 [Category("Appearance")]
 [DisplayName("Background Color")]
 public Color BgColor { get; set; }
-
-Using these techniques ensures a cleaner and more intuitive PropertyGrid experience.
