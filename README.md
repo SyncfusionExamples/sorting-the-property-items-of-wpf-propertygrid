@@ -1,8 +1,15 @@
 # Sorting the Property Items of WPF PropertyGrid
-The PropertyGrid control in WPF is a powerful and convenient way to display and edit the public properties of an object at runtime. By default, properties are shown in the order in which they are declared in the underlying class. While this approach works for simple objects, it can reduce readability and usability when dealing with large or complex data models. Applying sorting helps users quickly locate, understand, and modify properties.
-Why Sort Property Items?
+This repository demonstrates how to sort property items in the Syncfusion WPF PropertyGrid control using the built‑in SortDirection feature.
+The sample shows how properties can be displayed in ascending, descending, or unsorted order, helping developers organize and present object properties more effectively in WPF applications.
 
-## Improves clarity when working with many properties
+## Overview
+The Syncfusion WPF PropertyGrid allows developers to view and edit the properties of an object at runtime. By default, property items can be sorted based on their property names.
+This example illustrates how to:
+- Enable property sorting
+- Change the sorting direction
+- Disable sorting to preserve custom or declared property order
+
+## Why Sort Property Items?
 Groups logically related settings together
 Enhances navigation and overall editing efficiency
 Provides a more professional and user‑friendly UI
