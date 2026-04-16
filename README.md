@@ -1,18 +1,17 @@
 # Sorting the Property Items of WPF PropertyGrid
+The PropertyGrid control in WPF is a powerful and convenient way to display and edit the public properties of an object at runtime. By default, properties are shown in the order in which they are declared in the underlying class. While this approach works for simple objects, it can reduce readability and usability when dealing with large or complex data models. Applying sorting helps users quickly locate, understand, and modify properties.
+Why Sort Property Items?
 
-The **PropertyGrid** control in WPF is a powerful tool for displaying and editing object properties. By default, properties appear in the order defined in the class. However, sorting them can improve readability and user experience.
+## Improves clarity when working with many properties
+Groups logically related settings together
+Enhances navigation and overall editing efficiency
+Provides a more professional and user‑friendly UI
 
-## Why Sort Property Items?
+## Common Sorting Techniques
 
-- Enhance clarity in complex objects
-- Group related properties
-- Improve navigation and editing efficiency
-
-## Sorting Techniques
-
-- **CategoryAttribute**: Group properties under custom categories
-- **DisplayNameAttribute**: Influence alphabetical sorting
-- **Custom PropertyGrid Model**: Define explicit sort order
+CategoryAttribute: Organizes properties into named groups
+DisplayNameAttribute: Affects alphabetical ordering and readability
+Custom PropertyGrid Models: Allows full control over property order
 
 ## Example
 
@@ -20,3 +19,5 @@ The **PropertyGrid** control in WPF is a powerful tool for displaying and editin
 [Category("Appearance")]
 [DisplayName("Background Color")]
 public Color BgColor { get; set; }
+
+Using these techniques ensures a cleaner and more intuitive PropertyGrid experience.
